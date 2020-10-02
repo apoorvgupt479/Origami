@@ -1,0 +1,78 @@
+body {
+	text-align: center;
+	background: #43c6db url("tree.jpeg") repeat top;
+	color: #ffd700;
+}
+
+h5 {
+	font-size: 20px;
+}
+h4 {
+	font-size: 30px;
+}
+h1 {
+	font-size: 45px;
+}
+.item {
+    padding:0px;
+    margin-left:50px;
+    margin-right:"10%";
+    margin-top:20px;
+    position: relative;
+    border: dashed;
+    border-radius: 20px;
+    justify-content:space-between;
+    transition: opacity 0.5s, font-size 0.25s, background-color 1s;
+}
+
+.item p{
+  color:teal;
+  left:200;
+  font-family: "Sofia";
+}
+
+.holder {
+	color:"orange";
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.holder:hover {
+	position: static;
+}
+
+ol{
+	margin-left:300px;
+	margin-right:300px;
+}
+
+a:link{
+	color:#fe0000;
+	transition: font-size 1.25s;
+	font-family:fantasy;
+}
+
+a:visited{
+	color:#960000;
+	transition: font-size 1.25s;
+	font-family:fantasy;
+}
+
+a:hover{
+	font-size:25px;
+	transition: font-size 0.75s;
+	font-family:fantasy;
+}
+
+.item:hover{
+    background-color:#43c6db;
+	font-size:25px;
+	color:"red";
+	position: static;
+	transition: font-size 0.75s, background-color 2s;
+}
+
+.item:hover img{
+	opacity:0.5;
+	transition: opacity 1.25s;
+}
